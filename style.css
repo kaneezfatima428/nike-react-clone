@@ -1,0 +1,252 @@
+.img{
+    height: 35px;
+    width: 85px;
+    margin-left: 80px;
+}
+span{
+    color: #FF8367;
+    text-transform: uppercase;
+    font-size: larger ;
+}
+.nav-img{
+    font-size: x-large;
+    display: flex;
+}
+a{
+ color: #928F8C;
+ text-transform: capitalize;
+ text-decoration: none;
+ padding: 35px;
+ 
+}
+.nav-bar{ 
+    background-color: #FFF9F4;
+    border-bottom:1px solid #acaaa8a6;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    position:fixed ;
+    width: 98%;
+} 
+section{
+  width: 98%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid #acaaa8a6;
+   background-color: #FFF9F4;
+    
+}
+.c-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding: 5px;
+
+} 
+
+.cen-img{
+    margin-top: 25px;
+    height: 90%;
+    width: 50%;
+}  
+.c-write h1{
+   
+    text-transform: uppercase;
+    text-decoration: double;
+    font-size: xx-large;
+}
+.c-write{
+    margin-top: 100px;
+}
+.heading{
+    color: #FF8367;
+}
+.cen-heading{
+    color: #363958;
+}
+button {
+    background-color: #0B5ED7;
+    border: 1px solid #FFF;
+    color: #ffffff;
+    height: 40px;
+    border-radius: 5px;
+    
+    cursor: pointer;
+}
+
+.container {
+    background-color: #E5E5E5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.casual {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #363958;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ .products {
+    display: flex;
+   
+    gap: 20px;
+    flex-wrap: wrap;
+} 
+
+.product {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    flex-direction: column;
+    padding: 15px;
+    
+}
+
+.shoe {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+.product-info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product-info h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.product-info h4:last-of-type {
+    color: #0B5ED7;
+    font-weight: bold;
+}
+/* FEATURES SECTION */
+.features-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+    background-color: #E5E5E5;
+}
+
+.features-left {
+    width: 45%;
+}
+
+.feature-box {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.icon {
+    width: 55px;
+}
+
+.feature-box h3 {
+    color: #363958;
+    margin-bottom: 5px;
+}
+
+.feature-box p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* IMAGE RIGHT SIDE */
+.features-right {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.shopping-img {
+    width: 100%;
+    max-width: 420px;
+}
+
+/* NEWSLETTER SECTION */
+.newsletter {
+    background: #E5E5E5;
+    padding: 50px;
+    text-align: center;
+}
+
+.newsletter h2 {
+    color: #363958;
+    margin-bottom: 30px;
+}
+
+.newsletter-box {
+    width: 70%;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.newsletter-box input {
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.newsletter-box button {
+    background-color: #0B5ED7;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.newsletter-box button:hover {
+    background-color: #084aab;
+}
+.btn{
+
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .features-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .features-left, .features-right {
+        width: 100%;
+    }
+    .newsletter-box {
+        width: 100%;
+    }
+}
